@@ -72,3 +72,10 @@ img {
   display: grid;
   justify-items: center;
 }
+.interiorImg {
+  background-image: url("./Project Images/interiors/group-of-people-gathering-inside-bar-1058277.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -310px;
+  height: 400px;
+}
