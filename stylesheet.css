@@ -72,3 +72,26 @@ img {
   display: grid;
   justify-items: center;
 }
+.varInfo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.infoBoxes {
+  border: 1px solid black;
+  display: grid;
+  justify-content: center;
+}
+.infoBoxes p {
+  border: 1px solid black;
+  width: 250px;
+  height: 60px;
+  overflow: hidden;
+}
+.tabs {
+  display: grid;
+  justify-content: center;
+}
+.tabs p {
+  border: 1px solid black;
+  width: 500px;
+}
