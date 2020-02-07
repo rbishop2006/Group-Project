@@ -95,3 +95,18 @@ img {
   border: 1px solid black;
   width: 500px;
 }
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.socialFooter,
+img {
+  display: inline;
+}
+.map {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+}
