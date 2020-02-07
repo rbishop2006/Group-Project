@@ -90,6 +90,7 @@ img {
 .tabs {
   display: grid;
   justify-content: center;
+  position: relative;
 }
 .tabs p {
   border: 1px solid black;
@@ -109,4 +110,9 @@ img {
   border: 1px solid black;
   width: 200px;
   height: 150px;
+}
+.tabItems {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
