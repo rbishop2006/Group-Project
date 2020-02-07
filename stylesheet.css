@@ -11,13 +11,54 @@ body {
   margin: auto;
   border: 1px solid red;
 }
-.header,
 .interiorImg,
 .varInfo,
 .cascadeImgs,
 .footer {
-  width: 800px;
+  width: auto;
   height: 200px;
   border: 1px solid black;
   margin: auto;
+}
+.header {
+  width: auto;
+  border: 1px solid black;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.logo {
+  border: 1px solid black;
+  display: grid;
+  justify-content: center;
+}
+#largeLogo {
+  width: 250px;
+  height: 250px;
+}
+.ctaHeaderSection {
+  border: 1px solid black;
+  display: grid;
+  justify-items: center;
+}
+.navBar {
+  border: 1px solid black;
+}
+.linksTop,
+ul,
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.85em;
+}
+.linksTop,
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+}
+.socialSide,
+img {
+  display: grid;
+  justify-content: end;
 }
