@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  width: 1000px;
+  margin: auto;
+  border: 1px solid red;
+}
+.header,
+.interiorImg,
+.varInfo,
+.cascadeImgs,
+.footer {
+  width: 800px;
+  height: 200px;
+  border: 1px solid black;
+  margin: auto;
+}
