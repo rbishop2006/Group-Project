@@ -7,8 +7,9 @@ html {
   box-sizing: inherit;
 }
 body {
-  width: 1000px;
+  width: 1200px;
   margin: auto;
+  margin-top: 30px;
   border: 1px solid red;
 }
 .interiorImg,
@@ -49,7 +50,8 @@ ul,
 a {
   text-decoration: none;
   color: black;
-  font-size: 0.85em;
+  font-size: 0.9em;
+  padding: 5px;
 }
 .linksTop,
 ul {
@@ -61,4 +63,12 @@ ul {
 img {
   display: grid;
   justify-content: end;
+}
+.interiorImg {
+  display: grid;
+  justify-content: center;
+}
+.ctaInteriorImg {
+  display: grid;
+  justify-items: center;
 }
