@@ -72,10 +72,50 @@ img {
   display: grid;
   justify-items: center;
 }
+
 .interiorImg {
   background-image: url("./Project Images/interiors/group-of-people-gathering-inside-bar-1058277.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px -310px;
   height: 400px;
+}
+.varInfo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.infoBoxes {
+  border: 1px solid black;
+  display: grid;
+  justify-content: center;
+}
+.infoBoxes p {
+  border: 1px solid black;
+  width: 250px;
+  height: 60px;
+  overflow: hidden;
+}
+.tabs {
+  display: grid;
+  justify-content: center;
+}
+.tabs p {
+  border: 1px solid black;
+  width: 500px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.socialFooter,
+img {
+  display: inline;
+}
+.map {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+
 }
