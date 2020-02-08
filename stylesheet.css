@@ -111,8 +111,28 @@ img {
   width: 200px;
   height: 150px;
 }
+.navTabs {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.navTabs a {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
 .tabItems {
   position: absolute;
-  top: 0;
-  left: 0;
+  width: 775px;
+  top: 12px;
+  left: 10px;
+  padding: 20px;
+  display: none;
+}
+.active {
+  background-color: gray;
+  color: white;
+}
+.show {
+  display: block;
 }
