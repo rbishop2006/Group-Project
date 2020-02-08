@@ -72,14 +72,6 @@ img {
   display: grid;
   justify-items: center;
 }
-
-.interiorImg {
-  background-image: url("./Project Images/interiors/group-of-people-gathering-inside-bar-1058277.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px -310px;
-  height: 400px;
-}
 .varInfo {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -97,7 +89,8 @@ img {
 }
 .tabs {
   display: grid;
-  justify-content: center;
+  justify-content: start;
+  position: relative;
 }
 .tabs p {
   border: 1px solid black;
@@ -117,5 +110,29 @@ img {
   border: 1px solid black;
   width: 200px;
   height: 150px;
-
+}
+.navTabs {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.navTabs a {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.tabItems {
+  position: absolute;
+  width: 775px;
+  top: 12px;
+  left: 10px;
+  padding: 20px;
+  display: none;
+}
+.active {
+  background-color: gray;
+  color: white;
+}
+.show {
+  display: block;
 }
