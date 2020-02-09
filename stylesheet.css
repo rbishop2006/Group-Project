@@ -6,11 +6,18 @@ html {
 *::after {
   box-sizing: inherit;
 }
+html {
+  background-color: black;
+}
 body {
   width: 1200px;
   margin: auto;
   margin-top: 30px;
-  border: 1px solid red;
+  font-family: sans-serif;
+}
+#fullSite {
+  border: 15px solid white;
+  border-radius: 30px;
 }
 .interiorImg,
 .varInfo,
@@ -23,62 +30,92 @@ body {
 }
 .header {
   width: auto;
-  border: 1px solid black;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+  border-radius: 30px;
 }
 .logo {
-  border: 1px solid black;
   display: grid;
   justify-content: center;
+  padding: 25px;
 }
 #largeLogo {
   width: 250px;
   height: 250px;
 }
 .ctaHeaderSection {
-  border: 1px solid black;
   display: grid;
   justify-items: center;
+  color: #e88a1a;
+}
+.downArrow {
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  border: 1px solid #d9d9d9;
+}
+h1 {
+  font-family: sans-shiny;
+  color: #cf3030;
+  font-size: 4.5em;
+  text-align: center;
+  margin: 0;
+  padding-top: 15px;
+}
+.ctaHeaderSection p {
+  font-style: italic;
 }
 .navBar {
-  border: 1px solid black;
 }
 .linksTop,
 ul,
 a {
   text-decoration: none;
-  color: black;
-  font-size: 0.9em;
-  padding: 5px;
+  color: #e88a1a;
+  font-size: 1em;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 0px;
 }
 .linksTop,
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
+  margin-right: 20px;
 }
 .socialSide,
 img {
   display: grid;
   justify-content: end;
 }
+#circleFB,
+#circleTwitter,
+#circleInsta,
+#circlOpenTable {
+  background-color: #e88a1a;
+  border-radius: 50%;
+  padding: 1px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
 .interiorImg {
   display: grid;
-  justify-content: center;
+  justify-content: start;
+  border-top: 5px solid #d9d9d9;
+  border-bottom: 5px solid #d9d9d9;
 }
 .ctaInteriorImg {
   display: grid;
-  justify-items: center;
+  color: #e88a1a;
+  margin-left: 72px;
 }
-
-.interiorImg {
-  background-image: url("./Project Images/interiors/group-of-people-gathering-inside-bar-1058277.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px -310px;
-  height: 400px;
+.ctaInteriorImg h3 {
+  font-style: italic;
+}
+.ctaInteriorImg p {
+  font-style: italic;
 }
 .cascadeImgs {
   display: grid;
@@ -108,36 +145,54 @@ img {
   grid-template-columns: 1fr 2fr;
 }
 .infoBoxes {
-  border: 1px solid black;
   display: grid;
   justify-content: center;
 }
 .infoBoxes p {
-  border: 1px solid black;
+  border: 3px solid #d9d9d9;
   width: 250px;
-  height: 60px;
+  height: 70px;
   overflow: hidden;
+  color: #d9d9d9;
+  border-radius: 10px;
+  padding: 10px;
+}
+.todaysNews {
+  text-align: center;
+}
+.latestNews {
+  text-align: center;
 }
 .tabs {
   display: grid;
-  justify-content: center;
-}
-.tabs p {
-  border: 1px solid black;
-  width: 500px;
+  justify-content: start;
+  position: relative;
 }
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
+  border-top: 5px solid#d9d9d9;
+}
+.leftFooter {
+  color: #cf3030;
+  padding-left: 20px;
+}
+#squareFB,
+#squareTwitter,
+#squareInsta,
+#squareOpenTable {
+  background-color: #e88a1a;
+  border-radius: 15px;
+  padding: 0;
 }
 .socialFooter,
 img {
   display: inline;
 }
 .map {
-  border: 1px solid black;
   width: 200px;
   height: 150px;
+
 }
