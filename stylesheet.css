@@ -75,7 +75,7 @@ a {
   color: #e88a1a;
   font-size: 1em;
   border: 1px solid black;
-  margin-top: 20px;
+  margin-top: 0px;
   padding: 0px;
 }
 .linksTop,
@@ -108,7 +108,7 @@ img {
 }
 .ctaInteriorImg {
   display: grid;
-  color: #e88a1a;
+  color: #d9d9d9;
   margin-left: 72px;
 }
 .ctaInteriorImg h3 {
@@ -256,6 +256,10 @@ img {
   border-radius: 50px;
   width: 17px;
   height: 17px;
+}
+.menuIconsHover {
+  background-color: #cf3030;
+  border: 3px solid #cf3030;
 }
 .arrowUp img {
   display: block;
