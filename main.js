@@ -1,12 +1,13 @@
-$(document).ready(function() {
-  // $(".navTabs").on("click", "a", function() {
-  //   $(".tabItems>p").removeClass("show")
-  //   $("a").removeClass("active")
-  //   $(this).addClass("active")
-  //   $(this)
-  //     .find("+ .tabItems>p")
-  //     .addClass("show")
-  // })
+$(document).ready(function(e) {
+  $(".navTabs").on("click", "a", function(e) {
+    e.preventDefault()
+    $(".tabItems").removeClass("show")
+    $("a").removeClass("active")
+    $(this).addClass("active")
+    $(this)
+      .find("+ .tabItems")
+      .addClass("show")
+  })
   $.get("https://obscure-tundra-54269.herokuapp.com/casual-dining", function(
     food
   ) {

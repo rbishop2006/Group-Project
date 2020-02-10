@@ -19,9 +19,8 @@ body {
   border: 15px solid white;
   border-radius: 30px;
 }
-.interiorImg,
+
 .varInfo,
-.cascadeImgs,
 .footer {
   width: auto;
   height: 200px;
@@ -143,6 +142,7 @@ img {
 .varInfo {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  height: auto;
 }
 .infoBoxes {
   display: grid;
@@ -157,11 +157,18 @@ img {
   border-radius: 10px;
   padding: 10px;
 }
+.infoBoxes p:hover {
+  overflow: none;
+  background-color: black;
+  border: 5px solid #cf3030;
+  height: auto;
+  transition: 0.7s;
+}
 .todaysNews {
-  text-align: center;
+  text-align: left;
 }
 .latestNews {
-  text-align: center;
+  text-align: left;
 }
 .tabs {
   display: grid;
@@ -220,7 +227,30 @@ img {
   top: 12px;
   left: 10px;
   padding: 20px;
+  color: white;
   display: none;
+}
+input {
+  padding: 10px;
+  margin: 5px;
+  outline: none;
+  border-radius: 30px;
+}
+::placeholder {
+  color: black;
+}
+input:hover {
+  background-color: #e88a1a;
+}
+
+button {
+  padding: 11px;
+  margin-left: 44px;
+  outline: none;
+  border-radius: 30px;
+}
+button:hover {
+  background-color: green;
 }
 .active {
   background-color: gray;
