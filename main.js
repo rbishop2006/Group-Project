@@ -53,7 +53,7 @@ $(document).ready(function(e) {
     $("#appMenu").html(apps)
     $("#entreesMenu").html(entrees)
     $("#dessertsMenu").html(desserts)
-    $("img").hover(function() {
+    $("img.menuIcons").hover(function() {
       $(this).toggleClass("menuIconsHover")
     })
   })

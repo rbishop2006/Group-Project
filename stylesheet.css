@@ -24,7 +24,6 @@ body {
 .footer {
   width: auto;
   height: 200px;
-  border: 1px solid black;
   margin: auto;
 }
 .header {
@@ -32,8 +31,8 @@ body {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: black;
-  border-radius: 30px;
+  border-bottom: 5px solid white;
+  border-radius: 30px 30px 0px 0px;
 }
 .logo {
   display: grid;
@@ -65,8 +64,7 @@ h1 {
 .ctaHeaderSection p {
   font-style: italic;
 }
-.navBar {
-}
+
 .linksTop,
 ul,
 a {
@@ -103,8 +101,8 @@ img {
   background-image: url("Project Images/interiors/peopleinsidebar.jpg");
   display: grid;
   justify-content: start;
-  border-top: 5px solid #d9d9d9;
-  border-bottom: 5px solid #d9d9d9;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
   height: 400px;
   background-position: 1px -364px;
   background: cover;
@@ -112,7 +110,7 @@ img {
 }
 .ctaInteriorImg {
   display: grid;
-  color: #d9d9d9;
+  color: #cf3030;
   margin-left: 72px;
 }
 .ctaInteriorImg h3 {
@@ -124,10 +122,10 @@ img {
 .cascadeImgs {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
   justify-content: center;
-}
-.elegantcouple {
+  background-color: white;
 }
 .threestudents img {
   height: 417px;
@@ -150,6 +148,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 2fr;
   height: auto;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
 }
 .infoBoxes {
   display: grid;
@@ -187,7 +187,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
-  border-top: 5px solid#d9d9d9;
+  border-top: 5px solid white;
 }
 .leftFooter {
   color: #cf3030;
@@ -219,7 +219,7 @@ img {
   font-style: italic;
 }
 .navTabs {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 10px;
 }
 .navTabs a {
@@ -270,9 +270,9 @@ button:hover {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: #d9d9d9;
-  border-top: 5px solid#d9d9d9;
-  border-bottom: 5px solid#d9d9d9;
+  background-color: white;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
 }
 .menu h2 {
   text-align: center;
