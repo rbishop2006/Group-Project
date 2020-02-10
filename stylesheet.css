@@ -100,10 +100,15 @@ img {
   margin-top: 5px;
 }
 .interiorImg {
+  background-image: url("Project Images/interiors/peopleinsidebar.jpg");
   display: grid;
   justify-content: start;
   border-top: 5px solid #d9d9d9;
   border-bottom: 5px solid #d9d9d9;
+  height: 400px;
+  background-position: 1px -364px;
+  background: cover;
+  background-repeat: no-repeat;
 }
 .ctaInteriorImg {
   display: grid;
@@ -118,14 +123,16 @@ img {
 }
 .cascadeImgs {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+
+  justify-content: center;
 }
 .elegantcouple {
 }
-.threestudents {
-  height: 60px;
-  width: 40px;
-  background-repeat: no-repeat;
+.threestudents img {
+  height: 417px;
+  width: 544px;
+  /* background-repeat: no-repeat; */
 }
 .glassuplifting {
   height: 30px;
